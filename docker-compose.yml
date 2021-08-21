@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  gopherserver:
+    image: ${DOCKER_REGISTRY-}gopherserver
+    build:
+      context: .
+      dockerfile: GopherServer/Dockerfile
+    ports:
+      - "7070:70"
