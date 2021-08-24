@@ -12,6 +12,7 @@
     <ProjectReference Include="..\GopherServer.Providers.MacintoshGarden\GopherServer.Providers.MacintoshGarden.csproj" />
     <ProjectReference Include="..\GopherServer.Providers.Rss\GopherServer.Providers.Rss.csproj" />
     <ProjectReference Include="..\GopherServer.Providers.WpJson\GopherServer.Providers.WpJson.csproj" />
+    <ProjectReference Include="..\GopherServer.Server\GopherServer.Server.csproj" />
   </ItemGroup>
 
 </Project>
