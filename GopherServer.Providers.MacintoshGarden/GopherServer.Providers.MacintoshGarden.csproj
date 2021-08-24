@@ -1,6 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.1</PackageVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company></Company>
+    <Authors></Authors>
+    <Description>GopherServer MacintoshGarden</Description>
+    <PackageTags>gopher</PackageTags>
+    <PackOnBuild>true</PackOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\GopherServer.Core\GopherServer.Core.csproj"/>
